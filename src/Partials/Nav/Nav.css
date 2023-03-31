@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #FFF7ED;
+    font-family: 'Inter';
+}
+
+nav>a{
+    text-decoration: none;
+    color: unset;
+}
+
+nav h1 {
+    font-weight: 900;
+}
+
+nav ul {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #4D4D4D;
+    font-size: 16px;
+    line-height: 23px;
+}

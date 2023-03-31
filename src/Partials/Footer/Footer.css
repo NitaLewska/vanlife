@@ -1,0 +1,11 @@
+footer{
+    background: #252525;
+    color: #AAAAAA;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    padding: 25px;
+    margin-top: auto;
+}
