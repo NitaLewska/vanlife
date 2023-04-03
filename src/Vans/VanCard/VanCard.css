@@ -1,0 +1,116 @@
+.van_card {
+    width: 230px;
+    height: 310px;
+}
+
+.van_card>a {
+    text-decoration: none;
+    color: unset;
+}
+
+.van_card img{
+    width: 100%;
+}
+
+.van_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.van_info h3{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #161616;
+}
+
+.van_info__price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: right;
+    color: #161616;
+}
+
+.van_info__price span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #161616;
+}
+
+.van_card i{
+
+}
+
+.van-list-container button {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.van-type {
+    height: 34px;
+    padding: 6px 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEAD0;
+    color: #4D4D4D;
+    transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    font-style: normal;
+}
+
+.van-type:hover {
+    color: #FFEAD0;
+    cursor: pointer;
+}
+
+.van-type:focus {
+    outline: none;
+}
+
+.van-type.selected {
+    color: #FFEAD0;
+}
+
+.van-type.simple:hover, .van-type.simple.selected {
+    background-color: #E17654;
+}
+
+.van-type.rugged:hover, .van-type.rugged.selected {
+    background-color: #115E59;
+}
+
+.van-type.luxury:hover, .van-type.luxury.selected {
+    background-color: #161616;
+}
+
+.van-type.clear-filters {
+    margin-left: -20px;
+    height: 34px;
+    padding: 6px 26px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    text-decoration: underline;
+    background-color: transparent;
+    color: #4D4D4D;
+}
+
+i[class*='van-type-'] {
+    padding: 7px 14px;
+}

@@ -1,15 +1,15 @@
-main.about {
+.main_about {
     flex-grow: 1;
     padding:30px;
     background: #FFF7ED;
     padding: 0;
 }
 
-main.about>img{
+.main_about>img{
     width: 100%;
 }
 
-main.about>h2{
+.main_about>h2{
     font-family: 'Inter';
     font-weight: 700;
     font-size: 32px;
@@ -18,16 +18,17 @@ main.about>h2{
     margin: 50px 30px 0;
 }
 
-main.about>p{
+.main_about>p{
     margin: 30px;
     font-family: 'Inter';
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
     color: #161616;
+    width: 100%;
 }
 
-main.about>div{
+.main_about__explore_span{
     background: #FFCC8D;
     border-radius: 5px;
     margin: 0 30px 50px;
@@ -40,11 +41,11 @@ main.about>div{
     color: #161616;
 }
 
-main.about>div>p{
+.main_about>div>p{
     margin-top: 0;
 }
 
-main.about>div>a{
+.main_about>div>a{
     display: flex;
     align-items: center;
     justify-content: center;

@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <Nav />
-      <main className="about">
+      <main className="main_about">
         <img src={jumbo} alt="" />
         <h2>Don't squeeze in a sedan when you could relax in a van.</h2>
         <p>
@@ -20,7 +20,7 @@ export default function About() {
           Our team is full of vanlife enthusiasts who know firsthand the magic
           of touring the world on 4 wheels.
         </p>
-        <div>
+        <div className="main_about__explore_span">
           <p>Your destination is waiting. Your van is ready.</p>
           <Link>Explore our vans</Link>
         </div>

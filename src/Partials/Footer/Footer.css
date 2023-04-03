@@ -1,4 +1,4 @@
-footer{
+.footer{
     background: #252525;
     color: #AAAAAA;
     font-family: 'Inter';
@@ -9,3 +9,9 @@ footer{
     padding: 25px;
     margin-top: auto;
 }
+
+.footer_text{
+    padding: 0;
+    margin-top: 0;
+}
+

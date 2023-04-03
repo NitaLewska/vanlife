@@ -6,13 +6,13 @@ import "./Nav.css";
 function Nav() {
   return (
     <header>
-      <nav>
-        <Link to="/"><h1>#VANLIFE</h1></Link>
-        <ul>
-          <li>
+      <nav className="header_nav">
+        <Link to="/" className="header_nav__logo"><h1>#VANLIFE</h1></Link>
+        <ul className="header_nav__links">
+          <li className="header_nav__links__link">
             <Link to="/about">About</Link>
           </li>
-          <li>
+          <li className="header_nav__links__link">
             <Link to="/vans">Vans</Link>
           </li>
         </ul>

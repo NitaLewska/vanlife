@@ -1,4 +1,4 @@
-nav {
+.header_nav {
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -6,16 +6,16 @@ nav {
     font-family: 'Inter';
 }
 
-nav>a{
+.header_nav__logo{
     text-decoration: none;
     color: unset;
 }
 
-nav h1 {
+.header_nav h1 {
     font-weight: 900;
 }
 
-nav ul {
+.header_nav__links {
     margin-left: auto;
     display: flex;
     gap: 20px;
@@ -23,7 +23,7 @@ nav ul {
     list-style-type: none;
 }
 
-nav>ul>li>a {
+.header_nav__links__link a {
     text-decoration: none;
     font-weight: 600;
     color: #4D4D4D;
