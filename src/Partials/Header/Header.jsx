@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
-import About from "../../About/About";
-import Home from "../../Home/Home";
-import "./Nav.css";
+import "./Header.css";
 
-function Nav() {
+export default function Header() {
   return (
     <header>
       <nav className="header_nav">
@@ -21,4 +19,3 @@ function Nav() {
   );
 }
 
-export default Nav;

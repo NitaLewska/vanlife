@@ -1,5 +1,3 @@
-import Nav from "../Partials/Nav/Nav";
-import Footer from "../Partials/Footer/Footer";
 import "./About.css";
 import { Link } from "react-router-dom";
 import jumbo from "../assets/imgs/about-jumbo.png";
@@ -7,7 +5,6 @@ import jumbo from "../assets/imgs/about-jumbo.png";
 export default function About() {
   return (
     <>
-      <Nav />
       <main className="main_about">
         <img src={jumbo} alt="" />
         <h2>Don't squeeze in a sedan when you could relax in a van.</h2>
@@ -22,10 +19,9 @@ export default function About() {
         </p>
         <div className="main_about__explore_span">
           <p>Your destination is waiting. Your van is ready.</p>
-          <Link>Explore our vans</Link>
+          <Link to="/vans">Explore our vans</Link>
         </div>
       </main>
-      <Footer />
     </>
   )
 }

@@ -1,9 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Footer from "../../Partials/Footer/Footer";
-import Nav from "../../Partials/Nav/Nav";
 import "./VanPage.css";
 import { Link } from "react-router-dom";
+
 
 export default function VanPage() {
   const params = useParams();
@@ -20,7 +19,6 @@ export default function VanPage() {
   console.log(van);
   return (
     <>
-      <Nav />
       <main className="main_van_page">
           <img src={van.imageUrl} />
           <div className="van_page__info">
@@ -33,7 +31,6 @@ export default function VanPage() {
           </div>
             <Link>Rent this van</Link>
       </main>
-      <Footer />
     </>
   );
 }

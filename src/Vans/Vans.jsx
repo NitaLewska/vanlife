@@ -1,5 +1,3 @@
-import Footer from "../Partials/Footer/Footer"
-import Nav from "../Partials/Nav/Nav"
 import React from "react";
 import VanCard from "./VanCard/VanCard";
 import "./Vans.css"
@@ -19,12 +17,10 @@ export default function Vans() {
 
   return (
     <>
-      <Nav />
       <main className="main_vans">
         <h2>Explore our van options</h2>
         {vanElements}
       </main>
-      <Footer />
     </>
   )
 }
