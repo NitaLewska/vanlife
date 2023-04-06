@@ -1,0 +1,32 @@
+.hostlayout_nav {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4D4D4D;
+    background: #FFF7ED;
+    height: 80px;
+}
+
+.hostlayout_nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.hostlayout_nav a {
+    text-decoration: none;
+    color: unset;
+}
+
+.hostlayout_nav a:hover {
+    color: #161616;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: -0.15px;
+}

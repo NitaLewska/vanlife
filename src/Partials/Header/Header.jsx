@@ -8,6 +8,9 @@ export default function Header() {
         <Link to="/" className="header_nav__logo"><h1>#VANLIFE</h1></Link>
         <ul className="header_nav__links">
           <li className="header_nav__links__link">
+            <Link to="/host">Host</Link>
+          </li>
+          <li className="header_nav__links__link">
             <Link to="/about">About</Link>
           </li>
           <li className="header_nav__links__link">
